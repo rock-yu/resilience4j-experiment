@@ -1,0 +1,20 @@
+.gradle/
+.idea/
+/target/
+/build/
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### VS Code  ###
+.project
+.classpath
+.settings
+
+#sonarqube
+.scannerwork
