@@ -17,6 +17,8 @@ dependencies {
     implementation("io.github.resilience4j:resilience4j-retry:${resilience4jVersion}")
     implementation("io.github.resilience4j:resilience4j-circuitbreaker:${resilience4jVersion}")
     implementation("io.github.resilience4j:resilience4j-ratelimiter:${resilience4jVersion}")
+    implementation("io.github.resilience4j:resilience4j-timelimiter:${resilience4jVersion}")
+
 
     testImplementation("org.mockito:mockito-inline:4.8.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:4.1.0")
